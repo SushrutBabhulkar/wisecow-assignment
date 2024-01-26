@@ -46,12 +46,12 @@ jobs:
 
       - name: Create Deployment
         run: |
-                kubectl apply -f deployment.yaml
+                kubectl apply -f Deployment.yml
                 sleep 10
       
       - name: Create service
         run: |
-               kubectl apply -f service.yaml
+               kubectl apply -f Service.yml
                sleep 10
       
       - name: Generate TLS certificates
@@ -66,8 +66,8 @@ jobs:
       - name: Create Ingress
         run: |
                export MINIKUBE_IP=$(minikube ip)
-               awk -v host="$MINIKUBE_IP" '{gsub(/\$MINIKUBE_IP/, host); print}' ingress.yaml  > modified_ingress.yaml
-               kubectl apply -f modified_ingress.yaml
+               awk -v host="$MINIKUBE_IP" '{gsub(/\$MINIKUBE_IP/, host); print}' ingress.yml  > modified_ingress.yml
+               kubectl apply -f modified_ingress.yml
                sleep 10
 
       - name: Output
