@@ -1,4 +1,4 @@
-#Wisecow-assignment
+# Wisecow-assignment
 
 Problem Statement 1:
 Title: Containerisation and Deployment of Wisecow Application on Kubernetes
@@ -17,6 +17,7 @@ Approach and Solution: Each and every step of the deployment process is performe
     At last, it shows the output using curl command. 
 
 Output: 
-![image](https://github.com/SushrutBabhulkar/wisecow-assignment/assets/67704060/7d3eec6e-4445-4d17-834d-07191c652a59)
+![image](https://github.com/SushrutBabhulkar/wisecow-assignment/assets/67704060/7992d27b-5bd6-45ed-b580-8d612ff1b93d)
+
 
 Problem 2 Link: https://github.com/SushrutBabhulkar/AccuKnox-Assignment
